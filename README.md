@@ -271,17 +271,6 @@ prediction = model.predict(X_input)
 📌 Data Leakage — Key Decision
 Updated_ROI was identified as a leakage feature for classification since Profit_Flag = (Updated_ROI > 0) — it directly encodes the target label. After mentor consultation, Updated_ROI was retained in regression (where it's a legitimate feature) and handled appropriately in the classification pipeline.
 
-👤 Author
-Saroon
-B.Tech — Data Science & Artificial Intelligence
-SRM Institute of Science and Technology
-
 📄 License
 This project is created for educational purposes as part of a supervised ML course project.
-
-🙏 Acknowledgements
-Mentor guidance throughout the project
-Dataset: Synthetic Indian beauty brand marketing data
-Libraries: scikit-learn, XGBoost, Streamlit, Plotly, Pandas
-Built with ❤️ using Python, scikit-learn, XGBoost, and Streamlit
 
